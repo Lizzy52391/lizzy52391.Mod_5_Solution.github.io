@@ -79,13 +79,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // so it can be called when server responds with the categories data.
 
 
-$.ajax({
-    type: 'get',
-    url: 'http://www.example.com/api/test',
-    xhrFields: {
-        withCredentials: true
-    }
-
 // *** start ***
 // On first load, show home view
 showLoading("#main-content");
